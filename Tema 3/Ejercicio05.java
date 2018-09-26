@@ -16,7 +16,6 @@ public class Ejercicio05 {
     int altura = Integer.parseInt(linea);
     System.out.println("La base es " + base + " y la altura es " + altura + ".");
     int prod = base * altura;
-    double div = (double)prod / 2;
-    System.out.println("El área del rectángulo es " + div + ".");
+    System.out.println("El área del rectángulo es " + prod + ".");
   }
 }
