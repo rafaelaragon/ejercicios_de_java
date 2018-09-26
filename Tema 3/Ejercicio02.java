@@ -1,16 +1,14 @@
-/**
+﻿/**
  * 
- * Realiza un conversor de pesetas a euros.
+ * Realiza un conversor de euros a pesetas.
  * 
- * La cantidad de pesetas que se quiere convertir debe estar en una variable.
- * 
- * La cantidad de pesetas debe de introducirse por teclado.
+ * La cantidad de euros debe de introducirse por teclado.
  * 
  * @author Rafael Aragón Rodríguez
  */
 public class Ejercicio02 {
   public static void main(String[] args) {
-    System.out.println("Bienvenido al conversor de pesetas a euros.");
+    System.out.println("Bienvenido al conversor de euros a peseats.");
     System.out.print("Escribe el número de  euros que quieres convertir: ");
     String linea;
     linea = System.console().readLine();
