@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 
  * Realiza un conversor de euros a pesetas.
  * 
@@ -12,7 +12,7 @@ public class Ejercicio02 {
     System.out.print("Escribe el número de  euros que quieres convertir: ");
     String linea;
     linea = System.console().readLine();
-    int eur = Integer.parseInt(linea);
+    double eur = Double.parseDouble(linea);
     double conversor = (eur * 166.386);
     System.out.print(eur + " euros equivalen a " + (int)conversor + " pesetas.");
   }
