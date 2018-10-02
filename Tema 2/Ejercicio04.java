@@ -11,6 +11,6 @@ public class Ejercicio04 {
     double eur = 29.95;
     double conversor = eur * 166.386;
     System.out.println("Tienes " + eur + " euros.");
-    System.out.println("Equivalen a " + conversor + " pesetas.");
+    System.out.printf("Equivalen a %.2f pesetas.\n", conversor);
   }
 }
