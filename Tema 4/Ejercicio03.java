@@ -13,28 +13,28 @@ public class Ejercicio03 {
     int dia = Integer.parseInt(System.console().readLine());
     switch(dia) {
       case 1:
-      System.out.println("Es lunes,pero no te abrumes.");
-      break;
+        System.out.println("Es lunes,pero no te abrumes.");
+        break;
       case 2:
-      System.out.println("Es martes,al menos es mejor que antes.");
-      break;
+        System.out.println("Es martes,al menos es mejor que antes.");
+        break;
       case 3:
-      System.out.println("Es miércoles, y los miércoles no sé rimar.");
-      break;
+        System.out.println("Es miércoles, y los miércoles no sé rimar.");
+        break;
       case 4:
-      System.out.println("Es jueves, tengo unas ganas del viernes que te mueres.");
-      break;
+        System.out.println("Es jueves, tengo unas ganas del viernes que te mueres.");
+        break;
       case 5:
-      System.out.println("Es viernes, si te pasas esta noche puede que el sábado hibernes.");
-      break;
+        System.out.println("Es viernes, si te pasas esta noche puede que el sábado hibernes.");
+        break;
       case 6:
-      System.out.println("Es sábado, después de lo de ayer estarás el día tumbado.");
-      break;
+        System.out.println("Es sábado, después de lo de ayer estarás el día tumbado.");
+        break;
       case 7:
-      System.out.println("Es domingo, y con esto la semana extingo.");
-      break;
+        System.out.println("Es domingo, y con esto la semana extingo.");
+        break;
       default:
-      System.out.println("Ese número no vale. Te quedas sin rima.");
+        System.out.println("Ese número no vale. Te quedas sin rima.");
     }
   }
 }
