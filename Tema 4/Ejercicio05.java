@@ -17,8 +17,8 @@ public class Ejercicio05 {
     if (a==0) {
       System.out.println("Esta ecuación no tiene solución real.");
     }  else {
-    System.out.println("'a' vale " + a + " y 'b' vale " + b + ".");
-    System.out.println("x = " + x); 
+    System.out.println("'a' vale " + a +"y 'b' vale " + b + ".");
+    System.out.printf("x = %.2f\n", x); 
     }
   }
 }
