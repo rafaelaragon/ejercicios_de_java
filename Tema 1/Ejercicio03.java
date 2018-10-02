@@ -11,6 +11,6 @@ public class Ejercicio03 {
     System.out.println("Gobbledygook		Galimatías");
     System.out.println("Kerfuffle		Alboroto");
     System.out.println("Ragamuffin		Desharrapado");
-    System.out.println("NWhippersnapper		Mequetrefe");
+    System.out.println("Whippersnapper		Mequetrefe");
   }
 }
