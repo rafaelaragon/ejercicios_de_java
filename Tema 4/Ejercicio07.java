@@ -21,7 +21,7 @@ public class Ejercicio07 {
       else {
         System.out.print("Introduce la nota del tercer examen: ");
         double nota3 = Double.parseDouble(System.console().readLine());
-        if (nota1 < 0.0 || nota1 > 10.0) {
+        if (nota3 < 0.0 || nota3 > 10.0) {
           System.out.println("No puedes sacar esa nota. ¡Mentiroso!");
         }
         else {
