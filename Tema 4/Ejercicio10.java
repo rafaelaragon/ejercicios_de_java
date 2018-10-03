@@ -48,6 +48,7 @@ public class Ejercicio10 {
           System.out.println("Eres Géminis. Pase lo que pase, NUNCA escuches a las voces de tu cabeza. En serio.");
         } else
           System.out.println("Eres Cáncer. Deberías revisarte ese bulto tan feo que te ha salido.");
+          break;
       case 7:
         if (dia <23) {
           System.out.println("Eres Cáncer. Deberías revisarte ese bulto tan feo que te ha salido.");
