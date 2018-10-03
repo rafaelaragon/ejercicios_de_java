@@ -11,16 +11,16 @@ public class Ejercicio02 {
     System.out.println("Este programa pregunta la hora y te saluda.");
     System.out.print("¿Qué hora es? ");
     String linea = System.console().readLine();
-    double hora = Double.parseDouble(linea);
-    if (hora >= 0.0 && hora < 5.0) {
+    int hora = Integer.parseInt(linea);
+    if ((hora >= 0) && (hora < 6)) {
       System.out.println("Buenas noches.");
-    } else if (hora < 0.0 || hora >= 24) {
+    } else if ((hora < 0) || (hora >= 24)) {
         System.out.println("¡Indica una hora real!");
-    } else if (hora < 12.0) {
+    } else if (hora < 13) {
         System.out.println("Buenos días.");
-    } else if (hora < 20.0) {
+    } else if (hora < 20) {
         System.out.println("Buenas tardes.");
-    } else if (hora <= 23.59) {
+    } else if (hora < 24) {
         System.out.println("Buenas noches.");
     }
   }
