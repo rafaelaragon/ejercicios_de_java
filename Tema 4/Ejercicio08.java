@@ -32,7 +32,7 @@ public class Ejercicio08 {
           System.out.printf("La nota media es " + media);
           if (media < 5) {
             System.out.println(" Insuficiente.");
-          } else if (media <6) {
+          } else if (media < 6) {
               System.out.println(" Suficiente.");
             } else if (media < 7) {
                 System.out.println(" Bien.");
