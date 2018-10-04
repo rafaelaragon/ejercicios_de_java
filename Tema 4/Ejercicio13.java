@@ -50,6 +50,10 @@ public class Ejercicio13 {
       System.out.println("El segundo número es " + num2);
       System.out.println("El tercer número es " + num1);
     }
+    if ((num1 == num2) || (num1 == num3) || (num2 == num3)) {
+      
+      System.out.println("¡No introduzcas números iguales!");
+    }
   }
 }
     
