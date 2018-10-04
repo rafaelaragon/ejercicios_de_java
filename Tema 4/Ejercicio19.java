@@ -12,23 +12,23 @@ public class Ejercicio19 {
     int numero = Integer.parseInt(System.console().readLine());
     int solucion=0;
     
-    if (numero < 10) {
+    if ((numero > -10) && (numero < 10)) {
       solucion = 1;
     
-    } else if (numero < 100) {
+    } else if ((numero > -100) && (numero < 100)) {
       solucion = 2;
     
-    } else if (numero < 1000) {
+    } else if ((numero > -1000) && (numero < 1000)) {
       solucion = 3;
     
-    } else if (numero < 10000) {
+    } else if ((numero > -10000) && (numero < 10000)) {
       solucion = 4;
     
-    } else if (numero < 100000) {
+    } else if ((numero > -100000) && (numero < 100000)) {
       solucion = 5;
     }
     
-    if (numero >= 100000) {
+    if ((numero <= -100000) || (numero >= 100000)) {
       System.out.println("¡Te he dicho que no tenga más de 5 dígitos!");
     } else {
         System.out.println("El número " + numero + " tiene " + solucion + " cifras.");
