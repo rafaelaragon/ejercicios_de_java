@@ -1,6 +1,6 @@
 /**
  * 
- * Crea un programa que escriba la primera cifra de un número entero dado por
+ * Crea un programa que escriba el número de dígitos de un número entero dado por
  * el usuario. Se permiten números de hasta 5 cifras.
  * 
  * @author Rafael Aragón Rodríguez
