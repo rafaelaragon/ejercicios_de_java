@@ -1,6 +1,6 @@
 /**
  * 
- * Crea un programa que muestre múltiplos de 5 del 0 al 100 usando while.
+ * Crea un programa que muestre múltiplos de 5 del 0 al 100 usando do-while.
  * 
  * @author Rafael Aragón Rodríguez
  */
