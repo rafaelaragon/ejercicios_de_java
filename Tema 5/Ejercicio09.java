@@ -11,10 +11,14 @@ public class Ejercicio09 {
     System.out.print("Dime el número: ");
     int numero = Integer.parseInt(System.console().readLine());
     int i = 1;
-    while (numero > 10) {
-       numero = numero / 10;
-       i++;
+    if (numero != 0) {
+      while (numero != 0) {
+        numero = numero / 10;
+        i++;
+      }
+    } else {
+      System.out.println("El número tiene 1 cifra.);
     }
-        System.out.println("El número " + numero + " tiene " + i + " cifras.");
+    System.out.println("El número tiene " + i + " cifra(s).");
   }
 }
