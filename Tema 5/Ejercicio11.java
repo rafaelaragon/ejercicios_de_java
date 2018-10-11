@@ -26,6 +26,5 @@ public class Ejercicio11 {
       cuadrado = cuadrado * numero;
       cubo = cubo * numero * numero;
     }
-
   }
 }
