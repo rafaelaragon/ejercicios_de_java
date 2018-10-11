@@ -18,7 +18,6 @@ public class Ejercicio11 {
     System.out.println("Este programa calcula 5 veces el cuadrado y el cubo de un número que me des.");
     System.out.print("Porfavor, introduzca el número: ");
     double numero = Integer.parseInt(s.nextLine());
-    System.out.print("Porfavor, introduzca el número: ");
     double cuadrado = numero * numero;
     double cubo = numero * numero * numero;
     for (int i = 0; i < 4; i++) {
