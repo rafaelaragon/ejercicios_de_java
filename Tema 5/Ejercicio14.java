@@ -12,7 +12,7 @@ public class Ejercicio14 {
 
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
-    System.out.println("Este programa pide una base y una altura y calcula el exponente.");
+    System.out.println("Este programa pide una base y un exponente y calcula el resultado.");
     System.out.print("Dime la base: ");
     int base = Integer.parseInt(s.nextLine());
     int aux = base;
