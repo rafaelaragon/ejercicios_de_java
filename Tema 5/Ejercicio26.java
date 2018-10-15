@@ -33,7 +33,7 @@ public class Ejercicio26 {
       girado = (girado * 10) + (aux % 10);
       aux /= 10;
       longitud++;
-    } // while
+    }
     
     while (girado > 0) {
       if ((girado % 10) == digito) {
