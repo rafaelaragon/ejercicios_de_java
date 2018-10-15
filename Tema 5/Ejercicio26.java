@@ -20,7 +20,6 @@ public class Ejercicio26 {
     int digito = Integer.parseInt(s.nextLine());
     System.out.println("El dígito " + digito + " está en la(s) siguiente(s) posición(es): ");
     
-    // le da la vueta al número y calcula la longitud
     int aux = numero;
     int girado = 0;
     int posicion = 1;
@@ -35,15 +34,14 @@ public class Ejercicio26 {
       aux /= 10;
       longitud++;
     } // while
-        
-    // comprueba la posición
+    
     while (girado > 0) {
       if ((girado % 10) == digito) {
         System.out.print(posicion + " ");
       }
       girado /= 10;
       posicion++;
-    } // while
+    }
 
     System.out.println();
   }
