@@ -8,7 +8,7 @@ package tema05;
  */
 import java.util.Scanner;
 
-public class Ejercicio27 {
+public class Ejercicio28 {
 
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
