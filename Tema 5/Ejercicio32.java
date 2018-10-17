@@ -16,14 +16,14 @@ public class Ejercicio32 {
     Scanner s = new Scanner(System.in);
     System.out.println("Este programa dice cuánto suman los dígitos pares de un número que le des.");
     System.out.print("Introduzca el número: ");
-    long numero = Long.parseLong(s.nextLine());
+    int numero = Integer.parseInt(s.nextLine());
     if (numero < 0) {
       System.out.println("¡Usa números positivos!");
     } else {
 
-      long aux = numero;
-      long girado = 0;
-      long suma = 0;
+      int aux = numero;
+      int girado = 0;
+      int suma = 0;
 
       while (aux > 0) {
         girado = (girado * 10) + (aux % 10);
@@ -32,10 +32,12 @@ public class Ejercicio32 {
 
       System.out.print("Dígitos pares: ");
       while (girado > 0) {
-        long digito = girado % 10;
+        int digito = girado % 10;
         if (digito % 2 == 0) {
           System.out.print(" " + digito);
           suma += digito;
+          girado /= 10;
+        } else {
           girado /= 10;
         }
       }
