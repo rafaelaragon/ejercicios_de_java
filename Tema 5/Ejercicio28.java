@@ -22,7 +22,7 @@ public class Ejercicio28 {
       for (int i = 1; i < numero; i++) {
         factorial = factorial * i;
       }
+      System.out.println("El factorial de " + numero + " es: " + factorial);
     }
-    System.out.println("El factorial de " + numero + " es: " + factorial);
   }
 }
