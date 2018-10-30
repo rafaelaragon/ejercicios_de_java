@@ -12,7 +12,7 @@ public class Ejercicio03 {
 
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
-    System.out.println("Este programa muestra una carta de la baraja francesa al azar.");
+    System.out.println("Este programa muestra una carta de la baraja española al azar.");
     int suma = 0;
     int numero = ((int) (Math.random() * 10) + 1);
     if (numero == 1) {
