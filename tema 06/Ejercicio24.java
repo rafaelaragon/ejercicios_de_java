@@ -33,7 +33,6 @@ public class Ejercicio24 {
     System.out.print("El dígito elegido es: ");
     int aleatorio = ((int)(Math.random() * longitud));
     long digito = 0;
-    long primerDigito = 0;
     for (int i = 0; i < longitud; i++) {  //Muestra el número dígito a dígito.
       digito = girado % 10;
       girado /= 10;
